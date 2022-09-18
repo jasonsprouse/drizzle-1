@@ -13,5 +13,6 @@ export const NETWORK_IDS = {
     rinkeby: 4,
     goerli: 5,
     kovan: 42,
+    evmos: 9001,
     ganache: 5777
 }
