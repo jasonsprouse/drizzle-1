@@ -1,6 +1,7 @@
 import { drizzleConnect } from "@drizzle/react-plugin";
 import React, { Children, Component } from "react";
 import PropTypes from "prop-types";
+import Navbar from "./componets/NavBar";
 
 /*
  * Create component.
@@ -15,6 +16,7 @@ class LoadingContainer extends Component {
 
       return (
         <main className="container loading-screen">
+          <Navbar />
           <div className="pure-g">
             <div className="pure-u-1-1">
               <h1>⚠️</h1>
